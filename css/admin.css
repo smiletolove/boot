@@ -1,0 +1,32 @@
+.navbar-default .navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/*头像*/
+.wh64 {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+
+}
+
+/*page-header*/
+.page-header {
+    margin-top: 0;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.taglist {
+    padding-top: 15px;
+}
+
+.taglist .alert {
+    margin-right: 10px;
+}
+
+

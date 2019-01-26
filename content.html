@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <meta name="view-port" content="width=device-width,initial-scale=1,
+    user-scalable=no"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">maizi admin</a>
+        </div>
+        <div class="navbar-collapse collapse" id="responsive-navbar">
+            <ul class=" nav navbar-nav">
+                <li><a href="后台管理.html"><span class="glyphicon glyphicon-home"></span> &nbsp;后台首页</a></li>
+                <li><a href="userlist.html"><span class="glyphicon glyphicon-user"></span> &nbsp;用户管理</a></li>
+                <li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span> &nbsp;内容管理</a></li>
+                <li><a href="tip.html"><span class="glyphicon glyphicon-tags"></span> &nbsp;标签管理</a></li>
+            </ul>
+            <ul class=" nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" style="cursor:pointer" type="button" id="dropdownMenu1"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        admin&nbsp;<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;退出</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--导航-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="list-group">
+                <a class="list-group-item addcontrol">内容管理</a>
+                <a class="list-group-item addcontent">添加内容</a>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="page-header">
+                <h1>内容管理</h1>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="addcontrol">
+                    <a>内容管理</a>
+                </li>
+                <li class="addcontent">
+                    <a>添加内容</a>
+                </li>
+            </ul>
+            <table class="table" id="content1">
+                <thead>
+                <tr>
+                    <th>文章标题</th>
+                    <th>作者</th>
+                    <th>发布时间</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">泛Mooc职业教育， 效果和就业为王</th>
+                    <td>张三</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div role="presentation" class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> 操作
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">编辑</a></li>
+                                <li><a href="">删除</a></li>
+                                <li><a href="">全局置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">泛Mooc职业教育， 效果和就业为王</th>
+                    <td>张三</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div role="presentation" class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> 操作
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">编辑</a></li>
+                                <li><a href="">删除</a></li>
+                                <li><a href="">全局置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">泛Mooc职业教育， 效果和就业为王</th>
+                    <td>张三</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div role="presentation" class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> 操作
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">编辑</a></li>
+                                <li><a href="">删除</a></li>
+                                <li><a href="">全局置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">泛Mooc职业教育， 效果和就业为王</th>
+                    <td>张三</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div role="presentation" class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> 操作
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">编辑</a></li>
+                                <li><a href="">删除</a></li>
+                                <li><a href="">全局置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">泛Mooc职业教育， 效果和就业为王</th>
+                    <td>张三</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div role="presentation" class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> 操作
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">编辑</a></li>
+                                <li><a href="">删除</a></li>
+                                <li><a href="">全局置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">泛Mooc职业教育， 效果和就业为王</th>
+                    <td>张三</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div role="presentation" class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> 操作
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">编辑</a></li>
+                                <li><a href="">删除</a></li>
+                                <li><a href="">全局置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <nav aria-label="Page navigation" class="pull-right">
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </td>
+
+                </tr>
+                </tbody>
+
+            </table>
+
+            <!--添加内容-->
+            <form action="#" id="content2" style="display: none">
+                <div class="form-group">
+                    <label for="title">标题</label>
+                    <input type="text" id="title" class="form-control">
+                    <label for="content">文章内容</label>
+                    <textarea name="" id="content" cols="30" rows="10" class="form-control "></textarea>
+                </div>
+                <div class="checkbox">
+                    <label for="">
+                        <input type="checkbox"/>全局置顶
+                    </label>
+                    <button class="btn btn-default pull-right">
+                        发布文章
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="idname">用户名</label>
+                        <input type="text" id="idname" class="form-control"/>
+                        <label for="idname">用户密码</label>
+                        <input type="text" id="idname" class="form-control"/>
+                        <label for="idname">确认用户密码</label>
+                        <input type="text" id="idname" class="form-control"/>
+                        <label for="idname">请输入用户邮箱</label>
+                        <input type="text" id="idname" class="form-control"/>
+                        <label for="idname">所属用户名</label>
+                        <select name="" id="yonghuzu" class="form-control">
+                            <option value="">限制会员</option>
+                            <option value="">新手上路</option>
+                            <option value="">注册会员</option>
+                            <option value="">高级会员</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">提交</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="text-align: center;font-weight: 450;padding: 20px">
+                <p>
+                    Copyright&nbsp;©&nbsp;2012-2015&nbsp;&nbsp;www.maiziedu.com&nbsp;&nbsp;蜀ICP备13014270号-4
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/Chart.js"></script>
+<script src="js/script.js"></script>
+<script>
+    $(function () {
+        $(".addcontrol").addClass("active");
+    });
+    $(".addcontent").click(function () {
+        $("#content1").hide();
+        $("#content2").show();
+        $(".addcontent").addClass("active");
+        $(".addcontrol").removeClass("active");
+    });
+    $(".addcontrol").click(function () {
+        $("#content2").hide();
+        $("#content1").show();
+        $(".addcontrol").addClass("active");
+        $(".addcontent").removeClass("active");
+    })
+</script>
+</body>
+</html>
